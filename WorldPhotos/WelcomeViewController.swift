@@ -24,4 +24,12 @@ class WelcomeViewController : UIViewController {
         super.viewDidLoad()
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print("viewWillApplear excuted")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        print("viewDidAppear excuted")
+    }
 }

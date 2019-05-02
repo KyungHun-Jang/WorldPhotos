@@ -16,6 +16,11 @@
 		E8BD266C227A7FD6006CD8AE /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD266B227A7FD6006CD8AE /* MainTableViewController.swift */; };
 		E8BD266E227A8019006CD8AE /* MainTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8BD266D227A8019006CD8AE /* MainTableVC.xib */; };
 		E8BD2670227A86A1006CD8AE /* WorldPhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD266F227A86A1006CD8AE /* WorldPhotosModel.swift */; };
+		E8BD2672227AA1E1006CD8AE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD2671227AA1E1006CD8AE /* DetailViewController.swift */; };
+		E8BD2674227AA242006CD8AE /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8BD2673227AA242006CD8AE /* DetailVC.xib */; };
+		E8BD2676227ABE31006CD8AE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD2675227ABE31006CD8AE /* MapViewController.swift */; };
+		E8BD2678227ABE44006CD8AE /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8BD2677227ABE44006CD8AE /* MapVC.xib */; };
+		E8BD267C227ACFB6006CD8AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BD267B227ACFB6006CD8AE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		E8BD266B227A7FD6006CD8AE /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		E8BD266D227A8019006CD8AE /* MainTableVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableVC.xib; sourceTree = "<group>"; };
 		E8BD266F227A86A1006CD8AE /* WorldPhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldPhotosModel.swift; sourceTree = "<group>"; };
+		E8BD2671227AA1E1006CD8AE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E8BD2673227AA242006CD8AE /* DetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+		E8BD2675227ABE31006CD8AE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E8BD2677227ABE44006CD8AE /* MapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
+		E8BD267B227ACFB6006CD8AE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,11 @@
 				E8BD266B227A7FD6006CD8AE /* MainTableViewController.swift */,
 				E8BD266D227A8019006CD8AE /* MainTableVC.xib */,
 				E8BD266F227A86A1006CD8AE /* WorldPhotosModel.swift */,
+				E8BD2671227AA1E1006CD8AE /* DetailViewController.swift */,
+				E8BD2673227AA242006CD8AE /* DetailVC.xib */,
+				E8BD2675227ABE31006CD8AE /* MapViewController.swift */,
+				E8BD2677227ABE44006CD8AE /* MapVC.xib */,
+				E8BD267B227ACFB6006CD8AE /* Main.storyboard */,
 			);
 			path = WorldPhotos;
 			sourceTree = "<group>";
@@ -135,10 +150,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8BD265E227A75F2006CD8AE /* LaunchScreen.storyboard in Resources */,
+				E8BD2674227AA242006CD8AE /* DetailVC.xib in Resources */,
 				E8BD265B227A75F2006CD8AE /* Assets.xcassets in Resources */,
+				E8BD267C227ACFB6006CD8AE /* Main.storyboard in Resources */,
 				E8BD2666227A7705006CD8AE /* MainWindow.xib in Resources */,
 				E8BD266A227A7CA9006CD8AE /* WelcomeVC.xib in Resources */,
 				E8BD266E227A8019006CD8AE /* MainTableVC.xib in Resources */,
+				E8BD2678227ABE44006CD8AE /* MapVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8BD2654227A75F1006CD8AE /* AppDelegate.swift in Sources */,
+				E8BD2676227ABE31006CD8AE /* MapViewController.swift in Sources */,
 				E8BD266C227A7FD6006CD8AE /* MainTableViewController.swift in Sources */,
+				E8BD2672227AA1E1006CD8AE /* DetailViewController.swift in Sources */,
 				E8BD2668227A7C26006CD8AE /* WelcomeViewController.swift in Sources */,
 				E8BD2670227A86A1006CD8AE /* WorldPhotosModel.swift in Sources */,
 			);
